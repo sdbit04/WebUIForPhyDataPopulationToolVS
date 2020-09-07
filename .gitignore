@@ -3,7 +3,4 @@
 learning 
 *.pyc
 __pycache__
-migrations 
 db_*
-
-
