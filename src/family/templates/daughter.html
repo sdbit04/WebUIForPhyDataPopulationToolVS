@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content1 %}
+<h1>Hello Anamika</h1>
+<p>This is a template</p>
+
+<p> {{about}}</p>
+
+
+<ul>
+{% for name in names %}
+    <li>{{ name }}</li>
+{% endfor%}
+</ul>
+
+<div class="container">
+    <img src="/static/images/Home/Duttu_chole_Bazar.jfif" class="d-block w-100" alt="...">
+</div>
+
+{% endblock %}

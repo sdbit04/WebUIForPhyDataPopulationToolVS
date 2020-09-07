@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content1%}
+<h1>Hello Sonai</h1>
+
+<p>
+{{ about }}
+</p>
+
+<ul>
+{% for name in dices %}
+    <li>{{ name }}</li>
+{% endfor%}
+</ul>
+
+<div class="container fluide mx=0">
+
+    <img src="/static/images/wife/Smiling_sonai.Jfif" class="d-block w-100" alt="...">
+
+
+</div>
+
+{% endblock %}
